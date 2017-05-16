@@ -20,13 +20,51 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beginning" translatesAutoresizingMaskIntoConstraints="NO" id="v4O-cf-JtK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfb-cO-WyV">
+                                <rect key="frame" x="116" y="589" width="143" height="30"/>
+                                <state key="normal" title="Start Your Adventure"/>
+                                <connections>
+                                    <segue destination="Jtn-sC-tMq" kind="show" id="5kY-GC-Tth"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v4O-cf-JtK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="AdQ-qe-LAH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gfb-cO-WyV" secondAttribute="bottom" constant="48" id="Ahz-fi-Uix"/>
+                            <constraint firstAttribute="trailing" secondItem="v4O-cf-JtK" secondAttribute="trailing" id="OJD-Hp-9o6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v4O-cf-JtK" secondAttribute="bottom" id="f9R-Df-Vd0"/>
+                            <constraint firstItem="v4O-cf-JtK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gjF-5B-rJ2"/>
+                            <constraint firstItem="Gfb-cO-WyV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="joI-qq-4T0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ohX-2Y-zu4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="906" y="793"/>
+            <point key="canvasLocation" x="904.79999999999995" y="792.95352323838085"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Chm-9T-3Lg">
+            <objects>
+                <viewController id="Jtn-sC-tMq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rIc-lF-Fu5"/>
+                        <viewControllerLayoutGuide type="bottom" id="26A-0l-sBw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lDs-S0-3AC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dVV-Wc-ZXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1662" y="793"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Lr-5M-mZy">
@@ -47,4 +85,7 @@
             <point key="canvasLocation" x="133.59999999999999" y="792.95352323838085"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Beginning" width="320" height="568"/>
+    </resources>
 </document>
