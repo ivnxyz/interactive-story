@@ -24,7 +24,7 @@ enum Story {
 // This extension relys on enum's identity to provide additional data 
 
 extension Story {
-    var artWork: UIImage {
+    var artwork: UIImage {
         switch self {
         case .returnTrip:
             return #imageLiteral(resourceName: "ReturnTrip") // Image literal

@@ -13,6 +13,7 @@
 		A60F9DC81ECA702700C1675B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60F9DC71ECA702700C1675B /* Assets.xcassets */; };
 		A60F9DCB1ECA702700C1675B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60F9DC91ECA702700C1675B /* LaunchScreen.storyboard */; };
 		A630F8BE1ECB8A39001D8693 /* Adventure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630F8BD1ECB8A39001D8693 /* Adventure.swift */; };
+		A630F8C01ECBBE84001D8693 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630F8BF1ECBBE84001D8693 /* PageController.swift */; };
 		A636C5C91ECAC490000D1D16 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636C5C81ECAC490000D1D16 /* Story.swift */; };
 		A636C5CB1ECB267B000D1D16 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636C5CA1ECB267B000D1D16 /* Page.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		A60F9DCA1ECA702700C1675B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60F9DCC1ECA702700C1675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A630F8BD1ECB8A39001D8693 /* Adventure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adventure.swift; sourceTree = "<group>"; };
+		A630F8BF1ECBBE84001D8693 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		A636C5C81ECAC490000D1D16 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		A636C5CA1ECB267B000D1D16 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				A636C5C81ECAC490000D1D16 /* Story.swift */,
 				A636C5CA1ECB267B000D1D16 /* Page.swift */,
 				A630F8BD1ECB8A39001D8693 /* Adventure.swift */,
+				A630F8BF1ECBBE84001D8693 /* PageController.swift */,
 				A60F9DC41ECA702700C1675B /* Main.storyboard */,
 				A60F9DC71ECA702700C1675B /* Assets.xcassets */,
 				A60F9DC91ECA702700C1675B /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			files = (
 				A60F9DC31ECA702700C1675B /* ViewController.swift in Sources */,
 				A60F9DC11ECA702700C1675B /* AppDelegate.swift in Sources */,
+				A630F8C01ECBBE84001D8693 /* PageController.swift in Sources */,
 				A636C5CB1ECB267B000D1D16 /* Page.swift in Sources */,
 				A630F8BE1ECB8A39001D8693 /* Adventure.swift in Sources */,
 				A636C5C91ECAC490000D1D16 /* Story.swift in Sources */,
