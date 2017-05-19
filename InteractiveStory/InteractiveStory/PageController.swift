@@ -19,8 +19,10 @@ extension Story {
         let attributedString = NSMutableAttributedString(string: text)
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = 10
+        let fontStyle = UIFont.systemFont(ofSize: 14.5)
         
         attributedString.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: attributedString.stringRange)
+        attributedString.addAttribute(NSFontAttributeName, value: fontStyle, range: attributedString.stringRange)
         
         return attributedString
     }
@@ -56,6 +58,7 @@ class PageController: UIViewController {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.numberOfLines = 0
+        label.textAlignment = .center
         
         label.attributedText = self.page?.story(attributed: true)
         
@@ -125,7 +128,7 @@ class PageController: UIViewController {
         NSLayoutConstraint.activate([
             storyLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16.0),
             storyLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16.0),
-            storyLabel.topAnchor.constraint(equalTo: view.centerYAnchor, constant: -48.0)
+            storyLabel.topAnchor.constraint(equalTo: view.centerYAnchor, constant: -58.0)
         ])
         
         // FirstChoiceButton
