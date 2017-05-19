@@ -16,6 +16,10 @@
 		A630F8C01ECBBE84001D8693 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A630F8BF1ECBBE84001D8693 /* PageController.swift */; };
 		A636C5C91ECAC490000D1D16 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636C5C81ECAC490000D1D16 /* Story.swift */; };
 		A636C5CB1ECB267B000D1D16 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A636C5CA1ECB267B000D1D16 /* Page.swift */; };
+		A6489D501ECEBBE6001D9FF1 /* HappyEnding.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6489D4D1ECEBBE6001D9FF1 /* HappyEnding.wav */; };
+		A6489D511ECEBBE6001D9FF1 /* Ominous.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6489D4E1ECEBBE6001D9FF1 /* Ominous.wav */; };
+		A6489D521ECEBBE6001D9FF1 /* PageTurn.wav in Resources */ = {isa = PBXBuildFile; fileRef = A6489D4F1ECEBBE6001D9FF1 /* PageTurn.wav */; };
+		A6489D541ECEBC8C001D9FF1 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489D531ECEBC8C001D9FF1 /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		A630F8BF1ECBBE84001D8693 /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		A636C5C81ECAC490000D1D16 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		A636C5CA1ECB267B000D1D16 /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		A6489D4D1ECEBBE6001D9FF1 /* HappyEnding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HappyEnding.wav; sourceTree = "<group>"; };
+		A6489D4E1ECEBBE6001D9FF1 /* Ominous.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ominous.wav; sourceTree = "<group>"; };
+		A6489D4F1ECEBBE6001D9FF1 /* PageTurn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PageTurn.wav; sourceTree = "<group>"; };
+		A6489D531ECEBC8C001D9FF1 /* Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +76,24 @@
 				A636C5CA1ECB267B000D1D16 /* Page.swift */,
 				A630F8BD1ECB8A39001D8693 /* Adventure.swift */,
 				A630F8BF1ECBBE84001D8693 /* PageController.swift */,
+				A6489D531ECEBC8C001D9FF1 /* Audio.swift */,
 				A60F9DC41ECA702700C1675B /* Main.storyboard */,
+				A6489D4C1ECEBBCB001D9FF1 /* Resources */,
 				A60F9DC71ECA702700C1675B /* Assets.xcassets */,
 				A60F9DC91ECA702700C1675B /* LaunchScreen.storyboard */,
 				A60F9DCC1ECA702700C1675B /* Info.plist */,
 			);
 			path = InteractiveStory;
+			sourceTree = "<group>";
+		};
+		A6489D4C1ECEBBCB001D9FF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6489D4D1ECEBBE6001D9FF1 /* HappyEnding.wav */,
+				A6489D4E1ECEBBE6001D9FF1 /* Ominous.wav */,
+				A6489D4F1ECEBBE6001D9FF1 /* PageTurn.wav */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +156,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6489D511ECEBBE6001D9FF1 /* Ominous.wav in Resources */,
 				A60F9DCB1ECA702700C1675B /* LaunchScreen.storyboard in Resources */,
 				A60F9DC81ECA702700C1675B /* Assets.xcassets in Resources */,
+				A6489D501ECEBBE6001D9FF1 /* HappyEnding.wav in Resources */,
+				A6489D521ECEBBE6001D9FF1 /* PageTurn.wav in Resources */,
 				A60F9DC61ECA702700C1675B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +178,7 @@
 				A636C5CB1ECB267B000D1D16 /* Page.swift in Sources */,
 				A630F8BE1ECB8A39001D8693 /* Adventure.swift in Sources */,
 				A636C5C91ECAC490000D1D16 /* Story.swift in Sources */,
+				A6489D541ECEBC8C001D9FF1 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
